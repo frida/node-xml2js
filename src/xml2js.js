@@ -24,3 +24,13 @@ export {
   parseString,
   parseStringPromise
 }
+
+export default {
+  defaults,
+  processors,
+  ValidationError,
+  Builder,
+  Parser,
+  parseString,
+  parseStringPromise
+}
