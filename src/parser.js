@@ -1,9 +1,9 @@
 import sax from 'sax'
 import events from 'events'
-import * as bom from './bom'
-import * as processors from './processors'
+import * as bom from './bom.js'
+import * as processors from './processors.js'
 import { setImmediate } from 'timers'
-import { defaults } from './defaults'
+import { defaults } from './defaults.js'
 
 // Underscore has a nice function for this, but we try to go without dependencies
 const isEmpty = thing => (typeof thing === 'object') && (thing != null) && (Object.keys(thing).length === 0)

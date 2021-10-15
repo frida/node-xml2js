@@ -1,15 +1,15 @@
 import {
   defaults
-} from './defaults'
+} from './defaults.js'
 import {
   Builder
-} from './builder'
+} from './builder.js'
 import {
   Parser,
   parseString,
   parseStringPromise
-} from './parser'
-import * as processors from './processors'
+} from './parser.js'
+import * as processors from './processors.js'
 
 class ValidationError extends Error {
   // NOTHING

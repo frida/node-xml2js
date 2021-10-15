@@ -1,5 +1,5 @@
 import builder from 'xmlbuilder'
-import { defaults } from './defaults'
+import { defaults } from './defaults.js'
 
 const requiresCDATA = entry => (typeof entry === 'string') && ((entry.indexOf('&') >= 0) || (entry.indexOf('>') >= 0) || (entry.indexOf('<') >= 0))
 

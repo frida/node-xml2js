@@ -62,6 +62,7 @@
   "files": [
     "src"
   ],
+  "type": "module",
   "scripts": {
     "lint": "standardx",
     "lint:fix": "standardx --fix",
@@ -85,7 +86,7 @@
     "zap": ">=0.2.9"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=14.0.0"
   },
   "eslintConfig": {
     "ignorePatterns": [
