@@ -1,12 +1,15 @@
 {
-  "name": "xml2js",
+  "name": "@frida/xml2js",
   "description": "Simple XML to JavaScript object converter.",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "xml",
     "json"
   ],
   "homepage": "https://github.com/Leonidas-from-XIV/node-xml2js",
-  "version": "0.4.23",
   "author": "Marek Kubica <marek@xivilization.net> (https://xivilization.net)",
   "contributors": [
     "maqr <maqr.lollerskates@gmail.com> (https://github.com/maqr)",
@@ -73,7 +76,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leonidas-from-XIV/node-xml2js.git"
+    "url": "https://github.com/frida/node-xml2js.git"
   },
   "dependencies": {
     "sax": ">=0.6.0",
