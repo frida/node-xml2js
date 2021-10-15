@@ -58,18 +58,13 @@
     "Lovell Fuller (http://lovell.info/)",
     "d3adc0d3 (https://github.com/d3adc0d3)"
   ],
-  "main": "./lib/xml2js",
+  "main": "./src/xml2js.js",
   "files": [
-    "lib"
+    "src"
   ],
-  "directories": {
-    "lib": "./lib"
-  },
   "scripts": {
-    "build": "babel src --out-dir lib",
     "lint": "standardx",
     "lint:fix": "standardx --fix",
-    "prepare": "npm run build",
     "test": "zap",
     "coverage": "nyc npm test && nyc report",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
@@ -83,9 +78,6 @@
     "xmlbuilder": "~11.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.5",
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.4.2",
     "coveralls": "^3.0.1",
     "diff": ">=1.0.8",
     "nyc": ">=2.2.1",
